@@ -1,4 +1,4 @@
-/*--
+header-bot_inner_wthreeinfo_header_mid/*--
 Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -77,6 +77,7 @@ label{
 .header-bot_inner_wthreeinfo_header_mid {
     margin: 0 auto;
     width: 90%;
+   margin-top: 20px;
 }
 /*-- //header --*/
 .social-nav {
@@ -383,7 +384,8 @@ i.fa.fa-shopping-bag.top_logo_agile_bag {
 }
 
 /*-- //nav-bar --*/
-/* Common styles for all menus */
+/* Common styles for all menus  
+所有菜单的常用样式*/
 
 .menu__list {
 	position: relative;
@@ -405,7 +407,7 @@ i.fa.fa-shopping-bag.top_logo_agile_bag {
 	font-size: 1.05em;
 	font-weight: bold;
 	display: block;
-	padding: 1em;
+	padding: 2em;
 	cursor: pointer;
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -454,6 +456,7 @@ i.fa.fa-shopping-bag.top_logo_agile_bag {
 
 .menu--shylock .menu__link:hover::before,
 .menu--shylock .menu__link:focus::before {
+	/*搜索点击时的长度条*/
 	-webkit-transform: scale3d(1, 1, 1);
 	transform: scale3d(1, 1, 1);
 	-webkit-transition-delay: 0s;
@@ -558,6 +561,7 @@ a.simpleCart_empty {
 	height: 100px;
 }
 
+/*logo图片的设置*/
 .logo_pic img {
 	width: 140px;
 	height: 118px;
@@ -567,11 +571,12 @@ a.simpleCart_empty {
 /*登录注册处*/
 
 .login_resiger {
-	float: left;
+	float: right;
 	padding-left: 111px;
 	padding-top: 20px;
 }
 
+/*登陆、注册、购物车的配置信息*/
 .login,
 .resiger,
 .car {
@@ -580,8 +585,8 @@ a.simpleCart_empty {
 	height: 45px;
 	padding: 10px;
 	margin: 10px;
-	background: #2FDAB8;
-	border: 1px aquamarine solid;
+	background: pink;
+	border: 0px aquamarine solid;
 }
 
 .login a,
@@ -606,24 +611,25 @@ a.simpleCart_empty {
 }
 /*-- banner 轮播图位置图片--*/  
 .carousel .item{    
+	background:-webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/轮播001.jpg) no-repeat;
+	background:-moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/轮播001.jpg) no-repeat;
+	background:-ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/轮播001.jpg)) no-repeat; 
+	background:linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/轮播001.jpg) no-repeat;
+	background-size:cover;	 
+}
+.carousel .item.item2{   
+ 	* 
 	background:-webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/封面.jpg) no-repeat;
 	background:-moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/封面.jpg) no-repeat;
 	background:-ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/封面.jpg) no-repeat; 
 	background:linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/封面.jpg) no-repeat;
-	background-size:cover;	 
-}
-/*.carousel .item.item2{   
-	background:-webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/10.png) no-repeat;
-	background:-moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/10.png) no-repeat;
-	background:-ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/10.png) no-repeat; 
-	background:linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/10.png) no-repeat;
 	background-size:cover;	
 }   
-.carousel .item.item3{   
-	background:-webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/商店.jpg) no-repeat;
-	background:-moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/商店.jpg) no-repeat;
-	background:-ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/商店.jpg) no-repeat; 
-	background:linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/商店.jpg) no-repeat;
+/*.carousel .item.item3{   
+	background:-webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/轮播002.jpg) no-repeat;
+	background:-moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/轮播002.jpg) no-repeat;
+	background:-ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/轮播002.jpg) no-repeat; 
+	background:linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/轮播002.jpg) no-repeat;
 	background-size:cover;	 
 }   
 .carousel .item.item4{        
@@ -632,14 +638,14 @@ a.simpleCart_empty {
 	background:-ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/商店2.jpgg) no-repeat;
 	background:linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/商店2.jpg) no-repeat;
 	background-size:cover; */
-}  
+}  */
 /*.carousel .item.item5{    
 	background:-webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner5.jpg) no-repeat;
 	background:-moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner5.jpg) no-repeat;
 	background:-ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner5.jpg) no-repeat;
 	background:linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner5.jpg) no-repeat;
 	background-size:cover; 
-} */ 
+} */
 
 .carousel-caption h2, .carousel-caption h3 {
     font-size: 3em;
@@ -1952,7 +1958,7 @@ color: #545454;
 }
 /*-- //coupons --*/
 /*-- /about --*/
-.page-head_agile_info_w3l {
+/*.page-head_agile_info_w3l {
     background: url(../images/inner1.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
@@ -1961,15 +1967,16 @@ color: #545454;
     -moz-background-size: cover;
     min-height: 200px;
     padding-top:50px;
-}
-.page-head_agile_info_w3l h3 {
+}*/
+
+/*.page-head_agile_info_w3l h3 {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
     font-size:3em;
 	font-weight:700;
 	letter-spacing:2px;
-}
+}*/
 .page-head_agile_info_w3l h3  span{
  font-weight:300;
 }
@@ -3570,8 +3577,9 @@ p.w3ls_para {
 }
 @media (max-width: 1080px){
 	.header-bot_inner_wthreeinfo_header_mid {
-		margin: 0 auto;
-		width: 95%;
+	margin: 0 auto;
+    width: 78%;
+   
 	}
 	.box_1 h3 {
 		font-size: 15px;
@@ -4342,8 +4350,9 @@ p.w3ls_para {
 		display: inline-block;
 	}	
 	.header-bot_inner_wthreeinfo_header_mid {
-		margin: 0 auto;
-		width: 96%;
+	margin: 0 auto;
+    width: 78%;
+  
 	}
 	ul.dropdown-menu.multi-column.columns-3 {
 		    border-top: 1px solid rgba(255, 255, 255, 0.09);
@@ -5598,3 +5607,14 @@ p.w3ls_para {
     }
 }
 /*-- //responsive media queries --*/
+
+h1.center{
+	font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #000;
+    margin-bottom: 0.6em;
+    margin-top: 1.5em;
+    text-transform: uppercase;
+}
